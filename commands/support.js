@@ -29,10 +29,10 @@ module.exports = {
   run: async (client, interaction) => {
     try {
 
-      const supportServerLink = "https://discord.gg/xQF9f9yUEM";
-      const githubLink = "https://github.com/GlaceYT";
-      const replitLink = "https://replit.com/@GlaceYT";
-      const youtubeLink = "https://www.youtube.com/@GlaceYT";
+      const supportServerLink = "https://discord.gg/SP9SwPJgEp";
+      const githubLink = "https://github.com";
+      const replitLink = "https://replit.com/";
+      const youtubeLink = "https://www.youtube.com/@Cgaming49";
         const embed = new EmbedBuilder()
             .setColor('#b300ff')
             .setAuthor({
@@ -41,7 +41,7 @@ module.exports = {
               url: 'https://discord.gg/xQF9f9yUEM'
           })
             .setDescription(`➡️ **Join our Discord server for support and updates:**\n- Discord - ${supportServerLink}\n\n➡️ **Follow us on:**\n- GitHub - ${githubLink}\n- Replit - ${replitLink}\n- YouTube - ${youtubeLink}`)
-            .setImage('https://cdn.discordapp.com/attachments/1113800537402527903/1236803979996958740/11.png?ex=663956f7&is=66380577&hm=3b3c19a11adcb979517a133f2907f671305d23f1f5092cf7df043e6d5cab07bc&')
+            .setImage('https://media.discordapp.net/attachments/1147166099394265190/1245383150855655586/creators_verse.jpeg?ex=666cfc31&is=666baab1&hm=82339236844096b185f5a161b4f6e365f2744d562f30beeb692b6027003aa6d2&=&format=webp&width=741&height=417')
             .setTimestamp();
 
       return interaction.reply({ embeds: [embed] });
