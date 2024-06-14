@@ -30,9 +30,9 @@ module.exports = {
     try {
 
       const supportServerLink = "https://discord.gg/SP9SwPJgEp";
-      const githubLink = "https://github.com";
-      const replitLink = "https://replit.com/";
-      const youtubeLink = "https://www.youtube.com/@Cgaming49";
+      const githubLink = ".";
+      const replitLink = ".";
+      const youtubeLink = ".";
         const embed = new EmbedBuilder()
             .setColor('#b300ff')
             .setAuthor({
